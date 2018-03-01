@@ -12,6 +12,7 @@
     text-transform: uppercase;
     text-align: center;
     padding: 7%;
+    margin:auto;
 
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
@@ -19,6 +20,7 @@
 }
 
 .flag {
+    display: inline-block;
     position: relative;
     float: right;
     margin: 1%;
@@ -69,12 +71,13 @@ a {
 
 /*------------------BODY-----------------------*/
 
-#click {
+.click {
     display: block;
     align-content: center;
-    height: 210px;
-    width: 600px;
-    margin: 4%;
+    height: auto;
+    min-width: inherit;
+    margin:auto;
+    margin-top: 5%;
    
     
 }
@@ -83,6 +86,8 @@ h1 {
     font-size: 40px;
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
+    min-width:inherit;
+    
 }
 
 h2{
@@ -119,4 +124,6 @@ article {
     color: black;
     
 }
-
+body {
+    position: center;
+}
